@@ -1,0 +1,17 @@
+Soon:
+  location: world, -7.020, 63.974, 2.224
+  lines:
+  - '&bSQUID&fGAME'
+  - '&bThere Are 4 Games Avaible &C(All Games Soon)'
+  - '&fMystery Dust. that used in mystery box'
+  - '&bSquidgame is a game where'
+  - '&fyou need to survive'
+  - '&bAll player die only one'
+  - '&fPlayer win 100 mystery dust.'
+click:
+  location: world, 5.527, 64.171, -4.459
+  lines:
+  - '&bSQUID&fGAME'
+  - '&bwrite /sg join in chat'
+  - '&for Click on &dNPC'
+  - '&d>+<O>-<'

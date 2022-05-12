@@ -1,0 +1,35 @@
+game-settings:
+  allow-victory-before-completing-game: false
+  give-blindness-in-game-3: true
+  per-arena-chat: true
+  send-player-to-lobby-on-join: true
+  spawn-fireworks-on-win: true
+  min-players: 2
+  max-players: 12
+  starting-time: 30
+  finishing-time: 5
+  game-time:
+    '1': 60
+    '3': 60
+    '6': 60
+    '7': 600
+  rewards:
+  - say {winner} is the winner!
+  - mysterydust add {winner} 100
+  sounds:
+    player-loss-game: CAT_HIT
+    player-pass-game: LEVELUP
+    player-death: EXPLODE
+    arena-starting: CLICK
+    arena-countdown: NOTE_PLING
+    arena-start: ORB_PICKUP
+    green-light: GHAST_MOAN
+    red-light: BLAZE_HIT
+    glass-break: GLASS
+lobby:
+  world: world
+  x: -0.5569308451520457
+  y: 60.0
+  z: -3.448006855799605
+  yaw: 95.100296
+  pitch: -2.4000423

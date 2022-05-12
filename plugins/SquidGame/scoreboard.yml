@@ -1,0 +1,125 @@
+# This scoreboard will only work if SwiftBoard is installed
+# https://www.spigotmc.org/resources/swiftboard-free-async-and-fast.96879/
+#
+# Anyway, you can use any other scoreboard plugin as long as it has PlaceholderAPI support and it is also installed.
+# https://www.spigotmc.org/resources/placeholderapi.6245/
+#
+# Arena Variables:
+# %squidgame_arena_death%      Return last player death.
+# %squidgame_arena_joined%     Return last player joined.
+# %squidgame_arena_leaved%     Return last played leave.
+# %squidgame_arena_players%    Return alive players in arena.
+# %squidgame_arena_spectators% Return spectators players in arena.
+# %squidgame_arena_required%   Return required players count to start arena.
+# %squidgame_arena_maxplayers% Return max players allowed in arena.
+# %squidgame_arena_winner%     Return arena winner.
+# %squidgame_arena_time%       Return current arena event time.
+# %squidgame_arena_game%       Return current arena game name.
+# %squidgame_arena_name%       Return arena name.
+#
+# Player Variables: (Not finished yet)
+# %squidgame_player_wins%      Return player wins,
+# %squidgame_player_deaths%    Return player deaths.
+
+lobby:
+    - "&bSQUID&fGAME"
+    - ""
+    - "&7» Nick: &b%player_name%"
+    - "&7» Dust: &b%gadgetsmenu_mystery_dust%"
+    - "&7» Date: &f%server_time_dd/MM/yyyy%"
+    - ""
+    - "&e» Wins: &a%squidgame_player_wins%"
+    - "&e» Deaths: &c%squidgame_player_deaths%"
+    - ""
+    - "&d» Online: &e%server_online%&7/&6%server_max_players%"
+    - ""
+    - "&eplay.arkflame.com"
+waiting:
+  - "&bSQUID&fGAME"
+  - ""
+  - "&7» Nick: &b%player_name%"
+  - "&7» Dust: &b%gadgetsmenu_mystery_dust%"
+  - ""
+  - "&e» Arena: %squidgame_arena_name%"
+  - ""
+  - "&6» Players: &a%squidgame_arena_players%/%squidgame_arena_maxplayers%"
+  - "&6» Required to start: &c%squidgame_arena_required%"
+  - ""
+  - "&eplay.arkflame.com"
+starting:
+  - "&bSQUID&fGAME"
+  - ""
+  - "&7» Nick: &b%player_name%"
+  - "&7» Dust: &b%gadgetsmenu_mystery_dust%"
+  - ""
+  - "&e» Arena: %squidgame_arena_name%"
+  - ""
+  - "&6» Players: &a%squidgame_arena_players%/%squidgame_arena_maxplayers%"
+  - "&2» Starting in: &c%squidgame_arena_time%"
+  - ""
+  - "&eplay.arkflame.com"
+intermission:
+  - "&bSQUID&fGAME"
+  - ""
+  - "&7» Nick: &b%player_name%"
+  - "&7» Dust: &b%gadgetsmenu_mystery_dust%"
+  - ""
+  - "&e» Arena: %squidgame_arena_name%"
+  - ""
+  - "&6» Players alive: &a%squidgame_arena_players%"
+  - "&6» Next game in: &b%squidgame_arena_time%"
+  - ""
+  - "&eplay.arkflame.com"
+explain_game:
+  - "&bSQUID&fGAME"
+  - ""
+  - "&7» Nick: &b%player_name%"
+  - "&7» Dust: &b%gadgetsmenu_mystery_dust%"
+  - ""
+  - "&e» Arena: %squidgame_arena_name%"
+  - ""
+  - "&6» Players alive: &a%squidgame_arena_players%"
+  - "&6» Spectators: &c%squidgame_arena_spectators%"
+  - ""
+  - "&a» Game starts in: &b%squidgame_arena_time%"
+  - ""
+  - "&eplay.arkflame.com"
+in_game:
+  - "&bSQUID&fGAME"
+  - ""
+  - "&7» Nick: &b%player_name%"
+  - "&7» Dust: &b%gadgetsmenu_mystery_dust%"
+  - ""
+  - "&e» Arena: %squidgame_arena_name%"
+  - ""
+  - "&6» Players alive: &a%squidgame_arena_players%"
+  - "&6» Spectators: &c%squidgame_arena_spectators%"
+  - ""
+  - "&4» Finish in: &c%squidgame_arena_time%"
+  - ""
+  - "&eplay.arkflame.com"
+finishing_game:
+  - "&bSQUID&fGAME"
+  - ""
+  - "&7» Nick: &b%player_name%"
+  - "&7» Dust: &b%gadgetsmenu_mystery_dust%"
+  - ""
+  - "&e» Arena: %squidgame_arena_name%"
+  - ""
+  - "&6» Players alive: &a%squidgame_arena_players%"
+  - "&6» Spectators: &c%squidgame_arena_spectators%"
+  - ""
+  - "&e» Back to lobby in: &b%squidgame_arena_time%"
+  - ""
+  - "&eplay.arkflame.com"
+finishing_arena:
+  - "&bSQUID&fGAME"
+  - ""
+  - "&7» Nick: &b%player_name%"
+  - "&7» Dust: &b%gadgetsmenu_mystery_dust%"
+  - ""
+  - "&e» Arena: %squidgame_arena_name%"
+  - ""
+  - "&a» Winner: %squidgame_arena_winner%"
+  - ""
+  - "&eplay.arkflame.com"

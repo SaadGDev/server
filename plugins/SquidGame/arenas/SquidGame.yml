@@ -1,0 +1,81 @@
+arena:
+  world: SG
+  prelobby:
+    x: 0.6031540816364085
+    y: 61.0
+    z: 0.46886150447379366
+    pitch: 4.0500093
+    yaw: 178.34996
+  waiting_room:
+    x: 0.6031540816364085
+    y: 61.0
+    z: 0.46886150447379366
+    pitch: 4.0500093
+    yaw: 178.34996
+games:
+  first:
+    spawn:
+      x: 0.5884259194050241
+      y: 61.0
+      z: -39.27571468647926
+      pitch: 0.14992298
+      yaw: 174.30003
+    barrier:
+      first_point:
+        x: 12.0
+        y: 60.0
+        z: -42.0
+      second_point:
+        x: -12.0
+        y: 60.0
+        z: -42.0
+    killzone:
+      first_point:
+        x: 12.0
+        y: 60.0
+        z: -85.0
+      second_point:
+        x: -12.0
+        y: 60.0
+        z: -43.0
+    goal:
+      first_point:
+        x: -12.0
+        y: 60.0
+        z: -86.0
+      second_point:
+        x: 12.0
+        y: 60.0
+        z: -86.0
+  sixth:
+    spawn:
+      x: 231.47626929239328
+      y: 101.0
+      z: -83.4975752521765
+      pitch: -0.7499853
+      yaw: 359.68872
+    glass:
+      first_point:
+        x: 229.0
+        y: 100.0
+        z: -80.0
+      second_point:
+        x: 233.0
+        y: 100.0
+        z: -38.0
+    goal:
+      first_point:
+        x: 229.0
+        y: 100.0
+        z: -35.0
+      second_point:
+        x: 233.0
+        y: 100.0
+        z: -38.0
+  seventh:
+    spawn:
+      x: 296.5360874640891
+      y: 61.0
+      z: -65.49165145710248
+      pitch: -1.1997037
+      yaw: 83.4082

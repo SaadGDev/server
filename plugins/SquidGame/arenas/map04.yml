@@ -1,0 +1,81 @@
+arena:
+  world: Map04
+  prelobby:
+    x: 0.522973237180777
+    y: 61.0
+    z: 0.5835802732074835
+    pitch: 0.15000059
+    yaw: 184.65005
+  waiting_room:
+    x: 0.522973237180777
+    y: 61.0
+    z: 0.5835802732074835
+    pitch: 0.15000059
+    yaw: 184.65005
+games:
+  first:
+    spawn:
+      x: 0.37138956258204303
+      y: 61.0
+      z: -39.44753820598767
+      pitch: -7.0499787
+      yaw: 180.7501
+    barrier:
+      first_point:
+        x: 12.0
+        y: 60.0
+        z: -42.0
+      second_point:
+        x: -12.0
+        y: 60.0
+        z: -42.0
+    killzone:
+      first_point:
+        x: -12.0
+        y: 60.0
+        z: -43.0
+      second_point:
+        x: 12.0
+        y: 60.0
+        z: -85.0
+    goal:
+      first_point:
+        x: 12.0
+        y: 60.0
+        z: -86.0
+      second_point:
+        x: -12.0
+        y: 60.0
+        z: -86.0
+  sixth:
+    spawn:
+      x: 231.48482412029318
+      y: 101.0
+      z: -83.37580122925455
+      pitch: -0.15001388
+      yaw: 2.4007263
+    glass:
+      first_point:
+        x: 229.0
+        y: 100.0
+        z: -80.0
+      second_point:
+        x: 233.0
+        y: 100.0
+        z: -38.0
+    goal:
+      first_point:
+        x: 233.0
+        y: 100.0
+        z: -37.0
+      second_point:
+        x: 229.0
+        y: 100.0
+        z: -35.0
+  seventh:
+    spawn:
+      x: 296.3918184251081
+      y: 61.0
+      z: -65.43857198925124
+      pitch: -5.2500668
+      yaw: 208.50012
